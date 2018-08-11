@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário FCC</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<h3 class="titulo-principal">Pesquisa FreeCodeCamp</h3>
+	</header>
+
+	<main class="main">
+		<section class="container">
+			<header>
+				<p class="titulo-secundario ">
+					Deixe nos saber como melhorar o FreeCodeCamp !!!
+				</p>
+			</header>
+			<form action="post">
+				<div class="campo">
+					<label for="nome">* Nome:</label>
+					<input type="text" required>
+				</div>
+
+				<div class="campo">
+					<label for="email">* Email:</label>
+					<input type="text" required>
+				</div>
+
+				<div class="campo">
+					<label for="idade">* Idade:</label>
+					<input type="number" required>
+				</div>
+
+				<div class="campo">
+					<label for="select">Qual opção descreve sua atual condição?</label>
+					<select name="posição" id="dropdown">
+						<option value="" disabled="">Selecione Opção</option>
+						<option value="estudante">Estudante</option>
+						<option value="trampo">Trampo Integral</option>
+						<option value="estudante">Estudante Integral</option>
+						<option value="nego">Prefiro Omitir</option>
+						<option value="outro">Outros</option>
+					</select>
+				</div>
+			</form>
+
+
+		</section>
+	</main>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
